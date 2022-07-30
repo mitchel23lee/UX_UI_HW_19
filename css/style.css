@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+}
+
+
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+body {
+  background: #2d73b4;  
+ }
+ html.sr .widget {
+  visibility: hidden;
+}
+/* utility */
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+.widget-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  border-radius: 8px;
+}
+
+.widget {
+  width: 15%;
+  height: 50px;
+  flex: auto;
+  margin: 0.5rem;
+  background: rgb(4, 195, 209);
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* extension */
+html.sr .widget {
+  visibility: hidden;
+}
+
+ #container {
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   margin: auto;
+   transform: rotate(45deg);
+   top: 0; bottom: 0; left: 0; right: 0;
+ }
+
+.heroImg {
+
+  background-color: #005869;
+  padding: 10% 10%;
+}
+
+#col-1{
+  width: px;
+}
+
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: auto;
+  background-color: #8ec6d9;
+  text-align: center;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+.mySkills{
+  display: inline-block;
+  padding: auto;
+  
+}
+
+
+.myWork{
+text-align: center;
+font-size: 30px;
+
+
+}
+.flexContainer{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  row-gap: 9000px;
+ 
+}  
+.workGrid{
+  display: grid;
+  grid-template-rows: 100px 500px 500px 500px;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+
+
+}
+
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+
+
+
+/* #col-1{
+  width: px;
+} */
+
+.workGrid{
+  grid-template-rows: 400px 450px 450px;
+
+}
+@media only screen and (max-width: 600px) 
+ {}
+    background-color lightblue
+  
+
+  .flexContainer{
+    display: columns;
+    }
